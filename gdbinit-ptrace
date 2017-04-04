@@ -1,0 +1,5 @@
+catch syscall ptrace
+commands 1
+set ($eax) = 0
+continue
+end
